@@ -15,80 +15,114 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-display: block;
+  display: block;
 }
+
 body {
-line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-content: '';
-content: none;
+  content: '';
+  content: none;
 }
+
 table {
-border-collapse: collapse;
-border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 /*===================================================================*/
 @font-face {
-	font-family: "Yekan";
-	src: url("fonts/Yekan.woff") format("woff");
+  font-family: "Yekan";
+  src: url("fonts/Yekan.woff") format("woff");
 }
-body{
+
+body {
   background: #fcfcfc;
-	font: 20px "Yekan"
+  font-family: "Yekan", "Myriad Pro", "Tahoma";
+  font-size: 14px;
 }
 
-a{
-	text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
-.main{
+.main {
   width: 1200px;
   margin: 0 auto;
 }
-.container{
-	width: 1100px;
-	margin: 0 auto;
-}
-.pull-right{
-	float:right;
-}
-.pull-left{
-	float:left;
-}
-.masthead .top_menu{
-	width: 100%;
-	float:right;
-	background: #182d37;
-}
-.masthead .top_menu ul li{
-	display: inline-block;
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
 }
 
-.masthead .top_menu ul li a{
-	display: block;
-	padding: 10px 10px;
-	color: #4c7d89;
+.pull-right {
+  float: right;
 }
 
-.masthead .top_menu ul li a:hover{
-	color: #c1e1e9;
+.pull-left {
+  float: left;
+}
+
+.masthead .top_menu {
+  width: 100%;
+  float: right;
+  background: #182d37;
+}
+
+.masthead .top_menu ul li {
+  display: inline-block;
+}
+
+.masthead .top_menu ul li a {
+  display: block;
+  padding: 20px 10px;
+  color: #4c7d89;
+}
+
+.masthead .top_menu ul li a:hover ,.masthead .main_menu ul li a:hover  {
+  color: #8bc34a;
+}
+
+.masthead .main_menu {
+  width: 100%;
+  float: right;
+  background: fff;
+}
+
+.masthead .main_menu ul li {
+  display: inline-block;
+}
+
+.masthead .main_menu ul li a {
+  display: block;
+  padding: 30px 10px;
+  color: #182d37;
+}
+
+
+.masthead .logo {
+  margin: 15px auto 0;
 }
