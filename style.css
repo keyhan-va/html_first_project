@@ -267,23 +267,37 @@ a {
 }
 
 .customer .item .item-info span.name {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .newsletter {
   width: 100%;
   float: right;
+  position: relative;
   padding: 100px 0;
   background: url(images/newsletter.jpg);
   background-size: cover;
   color: #444;
 }
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(139, 195, 74, 0.2);
+}
+
 
 .newsletter .title_newsletter {
+  position: relative;
   margin: 20px auto 0;
   font-size: 30px;
 }
-
+.newsletter form{
+  position: relative;
+}
 .newsletter input[type="text"] {
   width: 320px;
   height: 70px;
