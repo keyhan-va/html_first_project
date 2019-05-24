@@ -189,6 +189,8 @@ a {
 
 .team .team-details img{
   float: right;s
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 
@@ -198,15 +200,69 @@ a {
   background: #f4f5f9;
   float: right;
   line-height: 25px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
 }
 
 .team .team-details .team-content h2{
   margin-bottom: 1opx;
-  font-size: 18px;
+  font-size: 13 px;
   color: #8bc34a;
 }
 
 .team .team-details .team-content p{
   text-align: justify;
+  font-size: 16px;
   color: #555;
+}
+
+.customer{
+  width: 100%;
+  float: right;
+  padding: 50px 0;
+  background: #f4f5f9;
+}
+
+
+.customer .item{
+  width:  33%;
+  float: right;
+  padding: 15px;
+  margin-top: 20px auto 0;
+  position: relative;
+}
+
+.customer .item .item-text{
+  padding: 30px;
+  text-align: center;
+  font-size:  15px;
+  line-height: 25px;
+  background: #aeb6b9;
+  color: #fff;
+  border-radius: 3px;
+}
+
+
+.customer .item .active{
+  background: #8bc34a;
+}
+
+.customer .item .item-info{
+  margin: 10px auto;
+}
+.customer .item .item-info img{
+  margin-left: 10px;
+  border-radius: 50%;
+  float: right;
+}
+
+.customer .item .item-info span{
+  display: inline-block;
+  padding: 15px 0 0;
+  font-size: 13px;
+}
+
+.customer .item .item-info span.name{
+  font-size: 20px;
 }
