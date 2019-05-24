@@ -64,7 +64,11 @@ body {
   font-size: 14px;
 }
 
-*{
+input, textarea, button, select {
+  font-family: "Yekan";
+}
+
+* {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -93,6 +97,12 @@ a {
   margin: 0 auto;
 }
 
+.half {
+  width: 50%;
+  float: right;
+  padding: 0 15px;
+}
+
 .pull-right {
   float: right;
 }
@@ -101,18 +111,17 @@ a {
   float: left;
 }
 
-
-.area-title{
-	text-align: center;
+.area-title {
+  text-align: center;
 }
 
-.area-title h2{
+.area-title h2 {
   margin-bottom: 10px;
-	font-size: 20px;
+  font-size: 20px;
   color: #2a4755
 }
 
-.area-title p{
+.area-title p {
   font-size: 24px;
   padding: 30px 0;
   color: #182d37;
@@ -166,103 +175,141 @@ a {
 .gallery .gallery-item {
   width: 25%;
   float: right;
-
 }
 
 .gallery .gallery-item img {
-
   float: right;
 }
+
 .team {
   width: 100%;
   float: right;
-	padding: 30px 0;
-	background: #fff;
+  padding: 30px 0;
+  background: #fff;
 }
 
-.team .team-details{
+.team .team-details {
   width: 33.33%;
   float: right;
   padding: 15px;
-
 }
 
-.team .team-details img{
-  float: right;s
-  border-top-left-radius: 3px;
+.team .team-details img {
+  float: right;
+  s border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
-
-
-.team .team-details .team-content{
+.team .team-details .team-content {
   padding: 25px;
   background: #f4f5f9;
   float: right;
   line-height: 25px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-
 }
 
-.team .team-details .team-content h2{
+.team .team-details .team-content h2 {
   margin-bottom: 1opx;
   font-size: 13 px;
   color: #8bc34a;
 }
 
-.team .team-details .team-content p{
+.team .team-details .team-content p {
   text-align: justify;
   font-size: 16px;
   color: #555;
 }
 
-.customer{
+.customer {
   width: 100%;
   float: right;
   padding: 50px 0;
   background: #f4f5f9;
 }
 
-
-.customer .item{
-  width:  33%;
+.customer .item {
+  width: 33%;
   float: right;
   padding: 15px;
   margin-top: 20px auto 0;
   position: relative;
 }
 
-.customer .item .item-text{
+.customer .item .item-text {
   padding: 30px;
   text-align: center;
-  font-size:  15px;
+  font-size: 15px;
   line-height: 25px;
   background: #aeb6b9;
   color: #fff;
   border-radius: 3px;
 }
 
-
-.customer .item .active{
+.customer .item .active {
   background: #8bc34a;
 }
 
-.customer .item .item-info{
+.customer .item .item-info {
   margin: 10px auto;
 }
-.customer .item .item-info img{
+
+.customer .item .item-info img {
   margin-left: 10px;
   border-radius: 50%;
   float: right;
 }
 
-.customer .item .item-info span{
+.customer .item .item-info span {
   display: inline-block;
   padding: 15px 0 0;
   font-size: 13px;
 }
 
-.customer .item .item-info span.name{
+.customer .item .item-info span.name {
   font-size: 20px;
+}
+
+.newsletter {
+  width: 100%;
+  float: right;
+  padding: 100px 0;
+  background: url(images/newsletter.jpg);
+  background-size: cover;
+  color: #444;
+}
+
+.newsletter .title_newsletter {
+  margin: 20px auto 0;
+  font-size: 30px;
+}
+
+.newsletter input[type="text"] {
+  width: 320px;
+  height: 70px;
+  float: right;
+  padding: 20px;
+  border: 0;
+  font-size: 18px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.newsletter input[type="text"]:focus {
+  outline: 0;
+}
+
+.newsletter input[type="submit"] {
+  width: 200px;
+  height: 70px;
+  float: left;
+  padding: 20px;
+  border: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  cursor: pointer;
+}
+
+.newsletter input[type="submit"]:hover{
+  background: #8bc34a;
 }
