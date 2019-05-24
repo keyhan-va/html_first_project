@@ -327,3 +327,35 @@ a {
 .newsletter input[type="submit"]:hover{
   background: #8bc34a;
 }
+
+
+.blog{
+  width: 100%;
+  float: right;
+  padding: 100px 0;
+}
+
+.blog .blog_single{
+  width: 33.33%;
+  float: right;
+  padding: 0 15px;
+}
+
+.blog .blog_single .blog_item{
+  display: inline-block;
+  padding: 15px 5px;
+}
+.blog .blog_single .blog_item h2{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.blog .blog_single .blog_item h2 a{
+
+  color: #8bc34a;
+}
+
+.blog .blog_single .blog_item p{
+  text-align: justify;
+  lin_height: 25px;
+  color: #555;
+}
